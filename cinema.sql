@@ -66,7 +66,7 @@ ON a.id_acteur = c.id_acteur
 INNER JOIN role r
 ON r.id_role = c.id_role
 WHERE a.id_acteur = 28
-ORDER BY DATE_FORMAT(f.date_sortie, '%Y') DESC	
+ORDER BY DATE_FORMAT(f.date_sortie, '%Y') DESC
 
 -- h. Listes des personnes qui sont à la fois acteurs et réalisateurs
 
